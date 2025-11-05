@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyCLxw77caaIl6vtHY83h1aI75NneG3RYkY", // Replace with your actual API key
+  apiKey: process.env.GEMINI_API_KEY
 });
 
 let chat = ai.chats.create({
