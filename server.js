@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-const genAI = new GoogleGenerativeAI("AIzaSyA3pDjYvgVJEyqZjik54ySKAafRKsajYv8");
+const genAI = new GoogleGenerativeAI("your-api-key-here");
 const model = genAI.getGenerativeModel({ 
   model: "gemini-2.0-flash",
   systemInstruction: `You are a friendly and helpful chatbot. Your goal is to assist users by answering questions, providing information, and offering guidance in a polite and clear manner. 
