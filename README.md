@@ -1,25 +1,25 @@
-# LifeSense AI - Medical Chatbot
+# ChatMate - AI Chatbot
 
-A modern, responsive medical assistant chatbot built with React and powered by Google's Gemini AI. LifeSense AI provides healthcare information and support to all users through an intuitive, beautifully designed interface.
+A modern, responsive chatbot built with React and powered by Google's Gemini AI. ChatMate provides helpful information and support to all users through an intuitive, beautifully designed interface.
 
 ## 🌟 Features
 
 ### Core Features
-- **AI-Powered Medical Assistance**: Leverages Google Gemini API for accurate, evidence-based medical information
-- **General Healthcare Support**: Answers questions about diseases, symptoms, treatments, medications, and wellness
-- **Emergency Protocol**: Immediate guidance for critical medical situations
+- **AI-Powered Assistance**: Leverages Google Gemini API for accurate, helpful information
+- **General Support**: Answers questions on various topics and provides helpful guidance
+- **Smart Responses**: Provides relevant and useful answers
 - **Conversation History**: Clear chat history with message persistence during the session
 - **New Chat Sessions**: Start fresh conversations without context from previous chats
 
 ### User Interface
-- **Modern Homepage**: Landing page with features showcase, security information, FAQ, and "Get Started" CTA
+- **Modern Chat Interface**: Clean, responsive design with message bubbles and typing indicators
 - **Professional Chat Interface**: Clean, responsive design with message bubbles and typing indicators
 - **Enter Key Support**: Send messages instantly by pressing Enter
 - **Mobile Responsive**: Fully responsive design that works on all device sizes
 - **Smooth Animations**: Beautiful transitions and floating effects
 
 ### Navigation
-- **Back to Home**: Easy navigation back to the homepage from the chatbot
+- **New Chat Button**: Create fresh conversations without leaving the interface
 - **New Chat Button**: Create fresh conversations without leaving the interface
 - **Navigation Header**: Sticky header for quick access to features
 
@@ -74,23 +74,21 @@ The app will open at `http://localhost:3000`
 ## 📁 Project Structure
 
 ```
-Medical-Chatbot/
+ChatMate/
 ├── public/
 │   └── index.html                 # Main HTML file
 ├── src/
 │   ├── components/
-│   │   ├── HomePage.js            # Landing page component
 │   │   ├── ChatWindow.js          # Chat message display
 │   │   ├── InputBox.js            # Message input field
 │   │   └── MessageBubble.js       # Individual message component
 │   ├── styles/
 │   │   ├── App.css                # App container styles
-│   │   ├── HomePage.css           # Homepage styles
 │   │   ├── ChatWindow.css         # Chat window styles
 │   │   ├── InputBox.css           # Input field styles
 │   │   ├── MessageBubble.css      # Message bubble styles
 │   │   └── index.css              # Global styles
-│   ├── App.js                     # Main app component with routing
+│   ├── App.js                     # Main app component
 │   └── index.js                   # React entry point
 ├── server.js                      # Backend server with API endpoints
 ├── package.json                   # Project dependencies
@@ -146,18 +144,12 @@ Creates a fresh chat session, clearing all conversation history on the backend.
 
 ## 🎯 User Flows
 
-### Homepage Flow
-1. User lands on homepage
-2. Views features, security information, and FAQ
-3. Clicks "Get Started" button
-4. Navigated to chat interface
-
 ### Chat Flow
 1. User enters the chat interface
 2. Types a message and presses Enter or clicks Send
 3. Message appears as a bubble on the right
 4. AI response appears as a bubble on the left
-5. Can start a new chat or return to homepage
+5. Can start a new chat
 
 ## 📱 Responsive Design
 
@@ -168,22 +160,14 @@ The application is fully responsive with breakpoints for:
 
 ## 🧠 Chatbot Capabilities
 
-The LifeSense AI chatbot can:
-- Answer general medical questions
-- Provide information about diseases and symptoms
-- Explain treatment options and medications
-- Offer wellness and prevention advice
-- Guide users on when to seek professional medical help
-- Support patients in recovery
-- Provide nutrition and lifestyle guidance
+ChatMate can:
+- Answer general questions
+- Provide helpful information on various topics
+- Offer guidance and suggestions
+- Engage in friendly conversations
 
-### Emergency Handling
-The chatbot immediately escalates and advises emergency care for:
-- Chest pain or difficulty breathing
-- Severe bleeding
-- Loss of consciousness
-- Severe allergic reactions
-- Other life-threatening symptoms
+### Smart Responses
+The chatbot provides relevant and helpful responses for various queries.
 
 ## 🛠️ Technology Stack
 
@@ -230,29 +214,21 @@ The `server.js` file can be deployed to any Node.js hosting platform:
 
 ## 📝 Usage Examples
 
-### Example 1: General Health Question
-**User**: "What are the symptoms of common cold?"
-**Chatbot**: Provides detailed symptoms, duration, and when to see a doctor.
+### Example 1: General Question
+**User**: "What is the capital of France?"
+**Chatbot**: Provides helpful information about Paris as the capital of France.
 
-### Example 2: Medication Question
-**User**: "How should I take paracetamol?"
-**Chatbot**: Explains dosage, frequency, and potential side effects.
+### Example 2: Information Request
+**User**: "How do I make a cake?"
+**Chatbot**: Provides a simple cake recipe or baking instructions.
 
-### Example 3: Wellness Question
-**User**: "How can I improve my sleep?"
-**Chatbot**: Provides evidence-based sleep hygiene tips.
-
-### Example 4: Emergency Situation
-**User**: "I have severe chest pain"
-**Chatbot**: Immediately advises to seek emergency medical care.
+### Example 3: Conversation
+**User**: "Tell me a fun fact"
+**Chatbot**: Shares an interesting and educational fact.
 
 ## ⚠️ Disclaimer
 
-**Important**: LifeSense AI is an informational tool and NOT a substitute for professional medical consultation. Always consult with licensed healthcare professionals for:
-- Medical diagnosis
-- Treatment planning
-- Prescription medication
-- Emergency situations
+**Important**: ChatMate is an informational tool designed to provide helpful responses. Always verify important information and consult with professionals when needed.
 
 ## 🤝 Contributing
 
@@ -275,11 +251,10 @@ For issues, questions, or suggestions:
 
 - Built with React and modern web technologies
 - Powered by Google Gemini AI
-- Inspired by modern healthcare applications
-- Special thanks to all contributors
+- Inspired by modern chat applications
 
 ---
 
-**LifeSense AI** - Empowering users with instant healthcare information.
+**ChatMate** - Empowering users with helpful information and smart responses.
 
 Last Updated: 2024

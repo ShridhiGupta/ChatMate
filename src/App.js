@@ -1,13 +1,11 @@
 import React, { useState } from "react";
-import ChatWindow from "./components/ChatWindow";
-import InputBox from "./components/InputBox";
-import HomePage from "./components/HomePage";
+import ChatWindow from "./components/ChatWindow.js";
+import InputBox from "./components/InputBox.js";
 import "./styles/App.css";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("home"); // 'home' or 'chat'
   const [messages, setMessages] = useState([
-    { sender: "bot", text: "Hello! How can I help you today?" }
+    { sender: "bot", text: "Hello! I'm ChatMate. How can I help you today?" }
   ]);
   const [loading, setLoading] = useState(false);
 
@@ -31,17 +29,9 @@ function App() {
     setLoading(false);
   };
 
-  const handleGetStarted = () => {
-    setCurrentPage("chat");
-  };
-
-  const handleBackToHome = () => {
-    setCurrentPage("home");
-  };
-
   const handleNewChat = () => {
     setMessages([
-      { sender: "bot", text: "Hello! How can I help you today?" }
+      { sender: "bot", text: "Hello! I'm ChatMate. How can I help you today?" }
     ]);
     // Reset backend chat session
     fetch("http://localhost:5000/api/new-chat", {
@@ -50,15 +40,10 @@ function App() {
     }).catch(err => console.error("Error resetting chat:", err));
   };
 
-  if (currentPage === "home") {
-    return <HomePage onGetStarted={handleGetStarted} />;
-  }
-
   return (
     <div className="app-container">
       <div className="chat-header">
-        <button className="back-btn" onClick={handleBackToHome}>← Back to Home</button>
-        <h1 className="chat-title">LifeSense AI Chatbot</h1>
+        <h1 className="chat-title">ChatMate</h1>
         <button className="new-chat-btn" onClick={handleNewChat}>+ New Chat</button>
       </div>
       <ChatWindow messages={messages} />
