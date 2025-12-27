@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 const ai = new GoogleGenAI({
-  apiKey: 'your-api-key'
+  apiKey: 'YOUR_API_KEY'
 });
 
 let chat = ai.chats.create({
