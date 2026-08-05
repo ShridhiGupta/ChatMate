@@ -2,7 +2,7 @@
 
 A modern, responsive chatbot built with React and powered by Google's Gemini AI. ChatMate provides helpful information and support to all users through an intuitive, beautifully designed interface.
 
-## 🌟 Features
+## Features
 
 ### Core Features
 - **AI-Powered Assistance**: Leverages Google Gemini API for accurate, helpful information
@@ -23,14 +23,14 @@ A modern, responsive chatbot built with React and powered by Google's Gemini AI.
 - **New Chat Button**: Create fresh conversations without leaving the interface
 - **Navigation Header**: Sticky header for quick access to features
 
-## 🛡️ Security & Privacy
+## Security & Privacy
 
 - **Data Privacy**: No chat history is permanently stored
 - **HIPAA Compliance Ready**: Designed with healthcare privacy standards in mind
 - **Secure Communication**: All API calls use HTTPS
 - **No Personal Data Retention**: Each new chat starts fresh
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -71,7 +71,7 @@ npm start
 ```
 The app will open at `http://localhost:3000`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ChatMate/
@@ -95,7 +95,7 @@ ChatMate/
 └── README.md                      # This file
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### `/api/chat` (POST)
 Sends a message to the chatbot and receives a response.
@@ -124,7 +124,7 @@ Creates a fresh chat session, clearing all conversation history on the backend.
 }
 ```
 
-## 🎨 Design Features
+## Design Features
 
 ### Color Scheme
 - **Primary Gradient**: Purple (#667eea) to Violet (#764ba2)
@@ -142,7 +142,7 @@ Creates a fresh chat session, clearing all conversation history on the backend.
 - **Hover Effects**: Interactive buttons with transform animations
 - **Slide-up Entrance**: Components animate in when first loaded
 
-## 🎯 User Flows
+## User Flows
 
 ### Chat Flow
 1. User enters the chat interface
@@ -151,14 +151,14 @@ Creates a fresh chat session, clearing all conversation history on the backend.
 4. AI response appears as a bubble on the left
 5. Can start a new chat
 
-## 📱 Responsive Design
+## Responsive Design
 
 The application is fully responsive with breakpoints for:
 - **Desktop**: Full-width layouts with side-by-side elements
 - **Tablet**: Adjusted spacing and font sizes
 - **Mobile**: Single-column layout with optimized touch targets
 
-## 🧠 Chatbot Capabilities
+## Chatbot Capabilities
 
 ChatMate can:
 - Answer general questions
@@ -178,7 +178,7 @@ The chatbot provides relevant and helpful responses for various queries.
 - **CORS**: Enabled for cross-origin requests
 - **Type Safety**: TypeScript support
 
-## 📦 Dependencies
+## Dependencies
 
 ```json
 {
@@ -192,7 +192,7 @@ The chatbot provides relevant and helpful responses for various queries.
 }
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Building for Production
 
@@ -212,7 +212,7 @@ The `server.js` file can be deployed to any Node.js hosting platform:
 - DigitalOcean
 - Any VPS with Node.js
 
-## 📝 Usage Examples
+## Usage Examples
 
 ### Example 1: General Question
 **User**: "What is the capital of France?"
@@ -226,11 +226,11 @@ The `server.js` file can be deployed to any Node.js hosting platform:
 **User**: "Tell me a fun fact"
 **Chatbot**: Shares an interesting and educational fact.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 **Important**: ChatMate is an informational tool designed to provide helpful responses. Always verify important information and consult with professionals when needed.
 
-## 🤝 Contributing
+## Contributing
 
 To contribute to this project:
 1. Fork the repository
@@ -241,13 +241,13 @@ To contribute to this project:
 6. Open a Pull Request
 
 
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions:
 - Open an issue on the repository
 - Contact (Email: guptashridhi11@gmail.com)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with React and modern web technologies
 - Powered by Google Gemini AI
