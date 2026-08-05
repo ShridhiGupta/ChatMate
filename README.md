@@ -169,7 +169,7 @@ ChatMate can:
 ### Smart Responses
 The chatbot provides relevant and helpful responses for various queries.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: React 18.0.0
 - **Backend**: Express 5.1.0
