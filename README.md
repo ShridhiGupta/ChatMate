@@ -256,5 +256,3 @@ For issues, questions, or suggestions:
 ---
 
 **ChatMate** - Empowering users with helpful information and smart responses.
-
-Last Updated: 2024
