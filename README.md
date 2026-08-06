@@ -254,4 +254,3 @@ For issues, questions, or suggestions:
 - Inspired by modern chat applications
 
 ---
-
